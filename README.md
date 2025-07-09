@@ -14,7 +14,7 @@ pip install pandas openpyxl
 
 2. Create a copy of the template:
 ```bash
-cp merge_excel_template.py merge_excel.py
+cp temu_merge_template.py temu_merge.py
 ```
 
 3. Edit `merge_excel.py` and configure your paths:
@@ -33,7 +33,7 @@ folder_config = [
 
 ### Usage
 ```bash
-python merge_excel.py
+python temu_merge.py
 ```
 
 ### Features
