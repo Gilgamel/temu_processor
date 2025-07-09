@@ -1,7 +1,7 @@
 # Temu Processor
 
 ## Table of Contents
-- [Temu Merge Script](#Temu Merge Script)
+- [Temu Merge Script](#Temu-Merge-Script)
 
 ## Temu Merge Script
 This script merges multiple Excel files from different folders into consolidated output files.
