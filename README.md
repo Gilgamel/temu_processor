@@ -1,6 +1,5 @@
 # Temu Processor
 
-## Table of Contents
 - [Temu Merge Script](#Temu-Merge-Script)
 
 ## Temu Merge Script
