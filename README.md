@@ -1,5 +1,5 @@
 # temu_processor
-- [TEMU MERGE SCRIPT] (## temu_merge)
+- [TEMU MERGE SCRIPT] (# temu_merge)
 
 
 ## temu_merge
