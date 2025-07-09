@@ -1,11 +1,11 @@
 # temu_processor
-
+- [TEMU MERGE SCRIPT] (## temu_merge)
 
 
 ## temu_merge
 This script merges multiple Excel files from different folders into consolidated output files.
 
-## Setup
+### Setup
 
 1. Install requirements:
 ```bash
