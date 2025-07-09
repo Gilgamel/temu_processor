@@ -1,2 +1,43 @@
 # temu_processor
 
+
+
+## temu_merge
+This script merges multiple Excel files from different folders into consolidated output files.
+
+## Setup
+
+1. Install requirements:
+```bash
+pip install pandas openpyxl
+```
+
+2. Create a copy of the template:
+```bash
+cp merge_excel_template.py merge_excel.py
+```
+
+3. Edit `merge_excel.py` and configure your paths:
+```python
+folder_config = [
+    {
+        "input_folder": "your/input/path1",
+        "output_file": "your/output/path1.xlsx"
+    },
+    {
+        "input_folder": "your/input/path2",
+        "output_file": "your/output/path2.xlsx"
+    }
+]
+```
+
+### Usage
+```bash
+python merge_excel.py
+```
+
+### Features
+- Processes multiple folders in one run
+- Standardizes column names (lowercase, no spaces, English brackets)
+- Maintains source file information
+- Handles errors gracefully
