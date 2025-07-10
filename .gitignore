@@ -6,8 +6,12 @@ input/
 output/
 processed/
 
+
+# Pycharm
+.idea/
+*.iml
+
 # Common exclusions
-*.idea/
 __pycache__/
 *.pyc
 *.pyo
