@@ -7,7 +7,7 @@ output/
 processed/
 
 # Common exclusions
-*.idea
+*.idea/
 __pycache__/
 *.pyc
 *.pyo
