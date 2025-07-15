@@ -1,5 +1,6 @@
 # Ignore the script with real paths
 temu_merge.py
+refund_cost_merge.py
 
 # Ignore local data directories
 input/
