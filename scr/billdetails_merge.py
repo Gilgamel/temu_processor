@@ -7,32 +7,32 @@ folder_config = [
     # Sixale
     {
         "input_folder": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\sixale outfitters account\\raw data global",
-        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\sixale outfitters account\\temu_sixale_global_consolidated_output.xlsx"
+        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\sixale outfitters account\\processed\\temu_sixale_global_consolidated_output.xlsx"
     },
     {
         "input_folder": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\sixale outfitters account\\raw data us",
-        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\sixale outfitters account\\temu_sixale_us_consolidated_output.xlsx"
+        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\sixale outfitters account\\processed\\temu_sixale_us_consolidated_output.xlsx"
     },
     # Edifier
     {
         "input_folder": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Edifier Official Shop\\raw data global",
-        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Edifier Official Shop\\temu_edifier_global_consolidated_output.xlsx"
+        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Edifier Official Shop\\processed\\temu_edifier_global_consolidated_output.xlsx"
     },
 
     {
         "input_folder": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Edifier Official Shop\\raw data us",
-        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Edifier Official Shop\\temu_edifier_us_consolidated_output.xlsx"
+        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Edifier Official Shop\\processed\\temu_edifier_us_consolidated_output.xlsx"
     },
 
     # Broke and Happy
     {
         "input_folder": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Broke n Happy account\\raw data us",
-        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Broke n Happy account\\temu_bnh_us_consolidated_output.xlsx"
+        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Broke n Happy account\\processed\\temu_bnh_us_consolidated_output.xlsx"
     },
 
     {
         "input_folder": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Broke n Happy account\\raw data global",
-        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Broke n Happy account\\temu_bnh_global_consolidated_output.xlsx"
+        "output_file": "C:\\Users\\vuser\\Documents\\Monthly Report\\Monthly Channel Profit\\Temu Ventchoice\\Broke n Happy account\\processed\\temu_bnh_global_consolidated_output.xlsx"
     }
 
 
