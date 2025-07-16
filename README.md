@@ -1,5 +1,7 @@
 # Temu Processor
 
+Suitable for Temu accounts registered under Chinese companies
+
 - [Bill Details Consolidation](#Bill-Details-Consolidation)
 - [Refund Cost Consolidation](#Refund-Cost-Consolidation)
 
