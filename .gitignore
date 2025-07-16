@@ -1,6 +1,9 @@
 # Ignore the script with real paths
-temu_merge.py
+billdetails_merge.py
 refund_cost_merge.py
+orderdetails_merge.py
+fulfillment_cost_merge.py
+
 
 # Ignore local data directories
 input/
