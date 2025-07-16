@@ -4,7 +4,7 @@
 - [Refund Cost Consolidation](#Refund-Cost-Consolidation)
 
 ## Bill Details Consolidation
-This script merges multiple Excel files from different folders into consolidated output files.
+This script merges multiple bill details Excel files from different folders into consolidated output files.
 
 ### Setup
 
