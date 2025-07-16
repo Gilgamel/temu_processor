@@ -1,8 +1,9 @@
 # Temu Processor
 
-- [Temu Merge Script](#Temu-Merge-Script)
+- [Bill Details Consolidation](#Bill-Details-Consolidation)
+- [Refund Cost Consolidation](#Refund-Cost-Consolidation)
 
-## Temu Merge Script
+## Bill Details Consolidation
 This script merges multiple Excel files from different folders into consolidated output files.
 
 ### Setup
