@@ -24,3 +24,4 @@ __pycache__/
 .env
 venv/
 *.log
+scr/monthly_profit.py
