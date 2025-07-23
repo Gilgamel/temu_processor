@@ -36,7 +36,7 @@ def standardize_columns(df):
 
     rename_map = {}
     for col in df.columns:
-        
+
         if col == "sku明细" or col.startswith("sku明细(skuid"):
             rename_map[col] = "sku明细(skuid_sku货号_sku名称_sku属性_销售数量)"
 
