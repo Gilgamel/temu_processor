@@ -4,6 +4,7 @@ Suitable for Temu accounts registered under Chinese companies
 
 - [Bill Details Consolidation](#Bill-Details-Consolidation)
 - [Order Details Consolidation](#Order-Details-Consolidation)
+- [Fulfillment Cost Consolidation](#Fulfillment-Cost-Consolidation)
 - [Refund Cost Consolidation](#Refund-Cost-Consolidation)
 
 ## Bill Details Consolidation
@@ -96,6 +97,51 @@ python order_details_merge.py
 - Encoding Robustness: Special handling for Unicode variations and hidden characters
 
 
+## Fulfillment Cost Consolidation
+This script merges multiple fulfillment cost (发货面单) Excel files from different folders into consolidated output files.
+
+### Setup 
+
+1. Create a copy of the template:
+```bash
+cp fulfillment_cost_merge_template.py fulfillment_cost_merge.py
+```
+
+2. Edit `fulfillment_cost_merge.py` and configure your paths:
+```python
+folder_config = [
+    {
+        "input_folder": "your/input/path1",
+        "output_file": "your/output/path1.xlsx"
+    },
+    {
+        "input_folder": "your/input/path2",
+        "output_file": "your/output/path2.xlsx"
+    }
+]
+
+    replacements = {
+        "pkg_sn": ["包裹号", "Package Number", "包裹编号"],
+        "waybill_sn": ["运单号", "Waybill Number"],
+        "carrier": ["服务商code", "Service Provider Code"],
+        "bill_type": ["账单类型", "Bill Type"],
+        "shipping_fee": ["运费(单位元)", "Shipping Fee (Unit: Yuan)"],
+        "currency": ["币种", "Currency"],
+        "bill_status": ["对账单状态", "Reconciliation Bill Status"],
+        "date": ["支出/退款时间(时区：GMT+8)", "Expense/Refund Time (Time Zone: GMT+8)"]
+    }
+```
+
+### Usage
+```bash
+python fulfillment_cost_merge.py
+```
+
+#### Features
+- Changes all sheet name to `raw data`
+- Calculates adjusted shipping fee based on bill status (支出成功/退款成功)
+- Sum up shipping fee based on pkg_sn, waybill_sn, carrier, and currency
+
 ## Refund Cost Consolidation
 This script merges multiple refund cost (退货面单) Excel files from different folders into consolidated output files.
 
@@ -127,5 +173,5 @@ python refund_cost_merge.py
 
 #### Features
 - Changes all sheet name to `raw data`
-- Sum up freight charge based on waybill sn, parent order sn, and seller currency.
+- Sum up freight charge based on waybill sn, parent order sn, and seller currency
 
