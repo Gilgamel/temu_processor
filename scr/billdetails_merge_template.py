@@ -16,7 +16,6 @@ folder_config = [
 ]
 
 
-
 def standardize_columns(df):
     """Standardize column names: lowercase, remove spaces, convert Chinese brackets to English"""
     new_columns = []
@@ -33,12 +32,15 @@ def standardize_columns(df):
 
     df.columns = new_columns
 
-
+    # 新增：将特定列名统一改为"sku_details"
     rename_map = {}
     for col in df.columns:
-
+        # 匹配 "skumxi" 或 "skumxi(skuid_sku货号_sku名称_sku属性_销售数量)"
         if col == "sku明细" or col.startswith("sku明细(skuid"):
             rename_map[col] = "sku明细(skuid_sku货号_sku名称_sku属性_销售数量)"
+
+        elif col == "售后单编号":
+            rename_map[col] = "售后单号"
 
     # 执行重命名
     if rename_map:
