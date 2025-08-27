@@ -17,15 +17,17 @@ folder_config = [
 ]
 
 # Define final columns to keep
-REQUIRED_COLUMNS = ['订单号', '子订单号', 'sku货号', '运单号', '物流商']
+REQUIRED_COLUMNS = ['订单号', '子订单号', '订单状态', 'sku货号', '运单号', '物流商', '发货仓']
 
 # Define column name aliases
 COLUMN_ALIASES = {
     'sku货号': ['SKU货号', '货品', '产品编号', 'SKU', '货号', '商品编号'],
+    '订单状态': ['订单状态'],
     '订单号': ['订单编号', '主订单号', 'OrderNumber'],
     '子订单号': ['子订单编号', '子单号', 'SubOrder'],
     '运单号': ['物流单号', '快递单号', 'Waybill'],
-    '物流商': ['物流公司', '快递公司', 'Carrier']
+    '物流商': ['物流公司', '快递公司', 'Carrier'],
+    '发货仓': ['发货仓']
 }
 
 
