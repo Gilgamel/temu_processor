@@ -10,6 +10,9 @@ files_management.py
 input/
 output/
 processed/
+logs/
+processed_logs/
+
 
 
 # Pycharm
