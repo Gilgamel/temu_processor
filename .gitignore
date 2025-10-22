@@ -3,6 +3,7 @@ billdetails_merge.py
 refund_cost_merge.py
 orderdetails_merge.py
 fulfillment_cost_merge.py
+files_management.py
 
 
 # Ignore local data directories
