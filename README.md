@@ -1,11 +1,17 @@
 # Temu Processor
 
+- [File_Management](#File-Management)
+
 Suitable for Temu accounts registered under Chinese companies
 
 - [Bill Details Consolidation](#Bill-Details-Consolidation)
 - [Order Details Consolidation](#Order-Details-Consolidation)
 - [Fulfillment Cost Consolidation](#Fulfillment-Cost-Consolidation)
 - [Refund Cost Consolidation](#Refund-Cost-Consolidation)
+
+## File Management
+This script automatically organizes files into their corresponding folders
+
 
 ## Bill Details Consolidation
 This script merges multiple bill details Excel files from different folders into consolidated output files.
